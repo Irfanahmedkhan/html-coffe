@@ -21,7 +21,7 @@ function additem() {
   } else {
     li = document.createElement("li");
     var checkbox = document.createElement("input");
-    checkbox.type = "chechbox";
+    checkbox.type = "checkbox";
     checkbox.setAttribute("id", "check");
 
     var label = document.createElement("label");
